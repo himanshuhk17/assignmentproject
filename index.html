@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Veed.io</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- Bootstrap Icons CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+ <style>
+    .row.content {height: 550px}
+   
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+   .subheading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;}
+    }
+    .well i ,add{
+      font-size: 2em;
+      padding: 10px;
+      border-radius: 50%;
+    }
+    .create{
+        background-color: #bca9e7;
+    }
+    .record{
+        background-color: #e7bda9;
+    }
+    .live{
+        background-color: #a9e7b9;
+    }
+    .precode{
+        background-color: #e7dda9;
+    }
+    .VImage{
+        width: 189px;
+    }
+   
+  </style>
+</head>
+<body>
+ 
+<nav class="navbar navbar-inverse visible-xs">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#"> New Video  &nbsp;&nbsp; <i class="bi bi-plus add" style="float:right;"></i></a> </li>
+        <!-- <li><a href="#"><i class="bi bi-house-door"></i>  &nbsp;&nbsp;Home</a></li> -->
+        <li><a href="#"><i class="bi bi-layout-text-sidebar"></i> &nbsp;&nbsp; Template</a></li>
+        <li><a href="#"><i class="bi bi-folder"></i>  &nbsp;&nbsp;All Videos</a></li>
+        <li><a href="#"><i class="bi bi-broadcast"></i>  &nbsp;&nbsp;Podcasts & Shows</a></li>
+        <li><a href="#"><i class="bi bi-box"></i> &nbsp;&nbsp; Brand Kit <i class="bi bi-lightning-fill"  style="float:right;"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ 
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav hidden-xs">
+      <h2><img src="veed.io.svg" ></h2>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#"> New Video  &nbsp;&nbsp; <i class="bi bi-plus add" style="float:right;"></i></a> </li>
+        <li><a href="#"><i class="bi bi-house-door"></i>  &nbsp;&nbsp;Home</a></li>
+        <li><a href="#"><i class="bi bi-layout-text-sidebar"></i> &nbsp;&nbsp; Template</a></li>
+        <li><a href="#"><i class="bi bi-folder"></i>  &nbsp;&nbsp;All Videos</a></li>
+        <li><a href="#"><i class="bi bi-broadcast"></i>  &nbsp;&nbsp;Podcasts & Shows</a></li>
+        <li><a href="#"><i class="bi bi-box"></i> &nbsp;&nbsp; Brand Kit <i class="bi bi-lightning-fill"  style="float:right;"></i></a></li>
+      </ul><br>
+    </div>
+    <br>
+   
+    <div class="col-sm-9">
+      <div class="well">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+      </div>
+      <div class="row">
+        <h3> &nbsp;&nbsp;&nbsp;Let's create some <b>Videos!</b></h3>
+        <div class="col-sm-3">
+          <div class="well">
+           <i class="bi bi-scissors icon create" ></i> <a href="index2.html">Create Project</a>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <i class="bi bi-camera-video record"></i> Record video
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <i class="bi bi-broadcast live"></i> Go live
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <i class="bi bi-mic precode" ></i> Record podcast
+          </div>
+        </div>
+      </div>
+     
+    </div>
+   
+   
+    <div class="col-sm-9">
+        <div  class="row subheading">
+            &nbsp;&nbsp;&nbsp;My Recent Video <p style="float: right; margin-left: 40px;">All video <i class="bi bi-chevron-compact-right"></i></p>
+        </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="well">
+            <img src="thumbnail1.jpg" alt="Video Thumbnail" weight="200px" ><a href="index2.html">Create Project</a>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="well">
+            <img src="thumbnail2.jpg" alt="Video Thumbnail" weight="200px" ><a href="index2.html">Create Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="row subheading">
+ 
+        &nbsp;&nbsp;&nbsp;Start with popular templates <p style="float: right;">See All <i class="bi bi-chevron-compact-right"></i></p>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well">
+            <img src="thumbnail1.jpg" class="VImage" alt="Video Thumbnail" >
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <img src="thumbnail1.jpg" class="VImage" alt="Video Thumbnail">
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <img src="thumbnail2.jpg" class="VImage" alt="Video Thumbnail">
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <img src="thumbnail1.jpg" class="VImage" alt="Video Thumbnail" >
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+  </div>
+
+ 
+</body>
+</html>
